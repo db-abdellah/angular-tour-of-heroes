@@ -1,0 +1,113 @@
+/* HeroesComponent's private CSS styles */
+
+
+.heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+    margin-left: 2em;
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    border-radius: 4px;
+  }
+  .heroes li:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+    left: .1em;
+  }
+  .heroes li.selected {
+    background-color:#371450;
+    color: white;
+  }
+  .heroes li.selected:hover {
+    background-color: #653c83;
+    color: white;
+  }
+  .heroes li.selected:active {
+    background-color: #371450;
+    color: white;
+  }
+  .heroes .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#eb2858;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    height:2.3em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+    width: 3.5em;
+  }
+  
+  input {
+    padding: .5rem;
+  }
+  .add-button{
+    margin-top:10px;
+    background-color: #eb2858;
+  }
+  .add-button:hover{
+    margin-top:10px;
+    background-color: #b4163e;
+  }
+  .delete{
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    color: blueviolet;
+    margin: auto;
+    top: 5px;
+    font-family: "Futura BQ";
+    border-radius: 50%;
+    width: 10px;
+
+  }
+  .listOfHeroes{
+    margin-left: 2em;
+  }
+  
+  .newHero button,input{
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    width: auto;
+    margin-left: 2em;
+    margin-top: 2em;
+
+  }
+  .newHero input{
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    width: 13em;
+    margin-left: 2em;
+    margin-top: 2em;
+
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  @media (max-width:900px){
+    .main{
+      flex-direction: column;
+    }
+    .newHero button{
+      margin: 0 0 2em 0;
+      list-style-type: none;
+      width: auto;
+      margin-left: 2em;
+      margin-top: 0.5em;
+  
+    }
+  }

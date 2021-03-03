@@ -1,0 +1,21 @@
+.details{
+    padding: 30px;
+}
+.details button{
+    margin-top: 20px;
+}
+
+.details button:hover{
+    background-color: #eb2858;
+}
+
+.details input {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.details button {
+    margin: 10px;
+    width: 90px;
+    border-radius: 5px;
+}

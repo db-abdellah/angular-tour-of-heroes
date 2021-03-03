@@ -1,0 +1,44 @@
+ul{
+    display: flex;
+  justify-content: space-evenly;
+
+}
+ul li{
+    display: flex;
+    padding: 20px;
+    flex-wrap:  wrap; 
+   
+}
+    
+nav{
+    top: O;
+    left: 0;
+    background-color: #371450;
+}
+
+li a{
+    font-size:20px ;
+    color: white;
+}
+
+li a:hover{
+    font-size:20px ;
+    color: #eb2858;
+}
+
+.container{
+    padding: 2em;
+    margin-left: 2em;
+}
+.container div{
+    margin-left: 2em;
+
+}
+h1{
+    width: fit-content;
+}
+@media (max-width:700px){
+    h1{
+        margin: auto;
+    }
+}
